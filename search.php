@@ -1,22 +1,22 @@
 <?php
 	// grab query issued by user
-	$term = isset($_GET["term"]) ? $_GET["term"]: '';
-	
+$term = isset($_GET["term"]) ? $_GET["term"]: '';
+
 	// grab type of result to return
-	$type = isset($_GET["type"]) ? $_GET["type"]: "sites";
+$type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 ?>
+
 <html>
 <head>
 	<title>Google</title>
 	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- jquery CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
 </head>
 <body>
-
-
 	<div class="wrapper">
+
 		<div class="header">
-
-
 			<div class="headerContent">
 				<div class="logoContainer">
 					<a href="index.php">
@@ -36,7 +36,6 @@
 				</div>
 			</div>
 
-
 			<div class="tabsContainer">
 				<ul class="tabList">
 					<li class="<?php echo $type == 'sites' ? 'active': '' ?>">
@@ -52,6 +51,21 @@
 				</ul>
 			</div>
 		</div>
+
+
+		<div class="mainResultsSection">
+
+			<p class="resultsCount"> <?php echo isset($resultsCount) ? $resultsCount:'5 results found' ?></p>
+
+			<div class="submitButtonContainer">
+				<form action="#" method="GET">
+					<input type="submit" value="Submit" class="ratingSubmitButton">
+				</form>
+			</div>
+
+		</div>
 	</div>
+	<script src="assets/js/searchResults.js"></script>
+	<script src="assets/js/insertSearchResults.js"></script>
 </body>
 </html>
