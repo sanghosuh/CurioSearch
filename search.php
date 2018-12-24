@@ -1,6 +1,6 @@
 <?php
 
-	$term = isset($_GET["term"]) ? $_GET["term"]: exit("You must enter a search term");
+	$term = isset($_GET["term"]) ? $_GET["term"]: '';
 	
 	$type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 
@@ -11,6 +11,8 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+
 	<div class="wrapper">
 		<div class="header">
 
@@ -25,7 +27,7 @@
 				<div class="searchContainer">
 					<form action="search.php" method="GET">
 						<div class="searchBarContainer">
-							<input type="text" class="searchBox" name="term">
+							<input type="text" class="searchBox" name="term" value='<?php echo $term ?>'>
 							<button class="searchButton">
 								<img src="assets/images/icons/search-24.png" alt="">
 							</button>
