@@ -1,8 +1,8 @@
 var searchResults = '';
 
-// results = generalCond1Results;
+results = generalCond1Results;
 // results = generalCond2Results;
-results = generalCond3Results;
+// results = generalCond3Results;
 
 for (let i = 0; i < results.length; i++) {
 	searchResults += `
