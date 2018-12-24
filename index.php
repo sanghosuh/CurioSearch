@@ -6,13 +6,11 @@
 <body>
 
 	<div class="wrapper indexPage">
-
 		<div class="mainSection">
-
 			<div class="logoContainer">
-				<!-- <a href="#"> -->
+				<a href="#">
 					<img src="assets/images/google.png" width="200px">	
-				<!-- </a> -->
+				</a>
 			</div>
 
 			<div class="searchContainer">
