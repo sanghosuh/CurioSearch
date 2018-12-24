@@ -1,25 +1,28 @@
-<?php
+<html>
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-require('../vendor/autoload.php');
+	<div class="wrapper indexPage">
+		<div class="mainSection">
+			<div class="logoContainer">
+				<a href="#">
+					<img src="assets/images/google.png" width="200px">	
+				</a>
+			</div>
 
-$app = new Silex\Application();
-$app['debug'] = true;
+			<div class="searchContainer">
 
-// Register the monolog logging service
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-));
+				<form action="search.php" method="GET">
+					<input type="text" class="searchBox" name="term">
+					<input type="submit" class="searchButton" value="Search">
 
-// Register view rendering
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/views',
-));
+				</form>
+			</div>
+		</div>
 
-// Our web handlers
-
-$app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return $app['twig']->render('index.twig');
-});
-
-$app->run();
+	</div>
+</body>
+</html>
