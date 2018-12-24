@@ -2,17 +2,18 @@ var searchResults = '';
 
 // results = generalCond1Results;
 // results = generalCond2Results;
-results = generalCond3Results;
+// results = generalCond3Results;
+var condNum = 'condition3';
 
-for (let i = 0; i < results.length; i++) {
+for (let i = 0; i < results[condNum].length; i++) {
 	searchResults += `
 			<div class="siteResults">
 				<div class="resultContainer">
 					<h3 class="title">
 	`;	
-	searchResults += '<a href=' + results[i]['url'] +' class="result" target="_blank">' + results[i]['title'] + '</a></h3>';
-	searchResults += '<span class="url">' + results[i]['url'] + '</span>';
-	searchResults += '<span class="description">' + results[i]['description'] + '</span></div>';
+	searchResults += '<a href=' + results[condNum][i]['url'] +' class="result" target="_blank">' + results[condNum][i]['title'] + '</a></h3>';
+	searchResults += '<span class="url">' + results[condNum][i]['url'] + '</span>';
+	searchResults += '<span class="description">' + results[condNum][i]['description'] + '</span></div>';
 	searchResults += `
 				<div class="ratingContainer">
 					<form action="">

@@ -1,9 +1,12 @@
 <?php
-	// grab query issued by user
+// grab query issued by user
 $term = isset($_GET["term"]) ? $_GET["term"]: '';
 
-	// grab type of result to return
+// grab type of result to return
 $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
+
+// grab condition number
+$condition = isset($_GET["condition"]) ? $_GET["condition"]: 1;
 ?>
 
 <html>
@@ -54,7 +57,6 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 
 
 		<div class="mainResultsSection">
-
 			<p class="resultsCount"> <?php echo isset($resultsCount) ? $resultsCount:'5 results found' ?></p>
 
 			<div class="submitButtonContainer">
