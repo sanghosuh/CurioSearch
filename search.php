@@ -1,9 +1,9 @@
 <?php
-
+	// grab query issued by user
 	$term = isset($_GET["term"]) ? $_GET["term"]: '';
 	
+	// grab type of result to return
 	$type = isset($_GET["type"]) ? $_GET["type"]: "sites";
-
 ?>
 <html>
 <head>
@@ -36,9 +36,9 @@
 				</div>
 			</div>
 
+
 			<div class="tabsContainer">
 				<ul class="tabList">
-
 					<li class="<?php echo $type == 'sites' ? 'active': '' ?>">
 						<a href='<?php echo "search.php?term=$term&type=sites"; ?>'>
 							Sites
