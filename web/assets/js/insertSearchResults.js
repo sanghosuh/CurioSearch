@@ -5,6 +5,7 @@ var searchResults = '';
 // results = generalCond3Results;
 var condNum = 'condition3';
 
+
 for (let i = 0; i < results[condNum].length; i++) {
 	searchResults += `
 			<div class="siteResults">
