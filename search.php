@@ -1,3 +1,10 @@
+<?php
+
+	$term = isset($_GET["term"]) ? $_GET["term"]: exit("You must enter a search term");
+	
+	$type = isset($_GET["type"]) ? $_GET["type"]: "sites";
+
+?>
 <html>
 <head>
 	<title>Google</title>
@@ -6,6 +13,8 @@
 <body>
 	<div class="wrapper">
 		<div class="header">
+
+
 			<div class="headerContent">
 				<div class="logoContainer">
 					<a href="index.php">
@@ -23,6 +32,22 @@
 						</div>
 					</form>
 				</div>
+			</div>
+
+			<div class="tabsContainer">
+				<ul class="tabList">
+
+					<li class="<?php echo $type == 'sites' ? 'active': '' ?>">
+						<a href='<?php echo "search.php?term=$term&type=sites"; ?>'>
+							Sites
+						</a>
+					</li>
+					<li class="<?php echo $type == 'images' ? 'active': '' ?>">
+						<a href='<?php echo "search.php?term=$term&type=images"; ?>'>
+							Images
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
