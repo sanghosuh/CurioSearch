@@ -1,10 +1,5 @@
 var searchResults = '';
-
-// results = generalCond1Results;
-// results = generalCond2Results;
-// results = generalCond3Results;
-var condNum = 'condition3';
-
+var condNum = 'condition1';
 
 for (let i = 0; i < results[condNum].length; i++) {
 	searchResults += `
