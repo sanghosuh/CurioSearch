@@ -7,7 +7,7 @@ results = {
 		},
 		{
 			title: 'Abraham Lincoln | HistoryNet',
-			url: 'www.historynet.com/abraham-lincoln',
+			url: 'https://www.historynet.com/abraham-lincoln',
 			description: 'Facts, information and articles about the life of Abraham Lincoln, 16th President Of the United States Abraham Lincoln Facts Born February 12, 1809, Hodgen.'
 		},	
 		{
@@ -34,7 +34,7 @@ results = {
 		},
 		{
 			title: 'Abraham Lincoln | HistoryNet',
-			url: 'www.historynet.com/abraham-lincoln',
+			url: 'https://www.historynet.com/abraham-lincoln',
 			description: 'Facts, information and articles about the life of a man, 16th President Of the United States Abraham Lincoln Facts Born February 12, 1809, Hodgen.'
 		},	
 		{
@@ -61,7 +61,7 @@ results = {
 		},
 		{
 			title: 'Abraham Lincoln | HistoryNet',
-			url: 'www.historynet.com/abraham-lincoln',
+			url: 'https://www.historynet.com/abraham-lincoln',
 			description: 'Facts, information and articles about the life of a man, 16th President Of the United States Abraham Lincoln Facts Born February 12, 1809, Hodgen.'
 		},	
 		{
