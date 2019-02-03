@@ -234,3 +234,46 @@ select {
     outline: none;
 }
 
+.slidercontainer {
+  display:flex;
+  height: 44px;
+  flex:0.5;
+}
+
+.horizontalSliderContainer {
+	padding: 0 7px;
+}
+
+.horizontalSlider {
+  -webkit-appearance: none;
+  height: 15px;
+  margin: 7px 0 0 0;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.horizontalSlider:hover {
+  opacity: 1;
+}
+
+.horizontalSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.horizontalSlider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}

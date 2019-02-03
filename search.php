@@ -34,6 +34,12 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 						</div>
 					</form>
 				</div>
+				<div class="sliderContainer">
+					<div class="horizontalSliderContainer">
+						<input type="range" min="1" max="50" value="25" class="horizontalSlider" id="horizontalRange">
+						<p>Value: <span id="horizontalValue"></span></p>
+					</div>		
+				</div>
 			</div>
 
 			<div class="tabsContainer">
@@ -67,5 +73,6 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 	</div>
 	<script src="assets/js/searchResults.js"></script>
 	<script src="assets/js/insertSearchResults.js"></script>
+	<script src="assets/js/slider.js"></script>
 </body>
 </html>
