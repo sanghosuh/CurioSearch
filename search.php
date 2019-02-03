@@ -12,6 +12,7 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- jquery CDN -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>	
+	<script src="assets/js/searchResults.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -37,7 +38,6 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 				<div class="sliderContainer">
 					<div class="horizontalSliderContainer">
 						<input type="range" min="1" max="50" value="25" class="horizontalSlider" id="horizontalRange">
-						<p>Value: <span id="horizontalValue"></span></p>
 					</div>		
 				</div>
 			</div>
@@ -71,7 +71,7 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 
 		</div>
 	</div>
-	<script src="assets/js/searchResults.js"></script>
+	
 	<script src="assets/js/insertSearchResults.js"></script>
 	<script src="assets/js/slider.js"></script>
 </body>
