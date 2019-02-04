@@ -8,12 +8,16 @@ var verticalSlider = document.getElementById("verticalRange");
 var verticalSliderValue = horizontalSlider.value;
 
 
-if (horizontalSliderValue >= 0 && horizontalSliderValue < 15) {
-	searchResults = getSiteResults(georgeWashingtonCond1Results);	
-} else if (horizontalSliderValue >= 15 && horizontalSliderValue < 30) {
-	searchResults = getSiteResults(abrahamLincolnCond3Results);
-} else {
-	searchResults = getSiteResults(donaldTrumpCond1Results);
+if (horizontalSliderValue < 15) {
+	searchResults = getSiteResults(level3Cond3Results[0]);	
+	$('.searchBox').attr('value', level3Cond3Results[3][0]);
+} else if (horizontalSliderValue <= 30) {
+	console.log('check');
+	searchResults = getSiteResults(level3Cond3Results[1]);
+	$('.searchBox').attr('value', level3Cond3Results[3][1]);
+} else if (horizontalSliderValue <= 50) {
+	searchResults = getSiteResults(level3Cond3Results[2]);
+	$('.searchBox').attr('value', level3Cond3Results[3][2]);
 }
 
 function getSiteResults(results) {
