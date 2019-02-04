@@ -38,7 +38,10 @@ $type = isset($_GET["type"]) ? $_GET["type"]: "sites";
 				<div class="sliderContainer">
 					<div class="horizontalSliderContainer">
 						<input type="range" min="1" max="50" value="25" class="horizontalSlider" id="horizontalRange">
-					</div>		
+					</div>
+					<div class="verticalSliderContainer">
+						<input type="range" min="1" max="50" value="25" class="verticalSlider" id="verticalRange">
+					</div>							
 				</div>
 			</div>
 
