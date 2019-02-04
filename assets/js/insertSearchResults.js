@@ -4,6 +4,10 @@ var searchResults = '';
 var horizontalSlider = document.getElementById("horizontalRange");
 var horizontalSliderValue = horizontalSlider.value;
 
+var verticalSlider = document.getElementById("verticalRange");
+var verticalSliderValue = horizontalSlider.value;
+
+
 if (horizontalSliderValue >= 0 && horizontalSliderValue < 15) {
 	searchResults = getSiteResults(georgeWashingtonCond1Results);	
 } else if (horizontalSliderValue >= 15 && horizontalSliderValue < 30) {
