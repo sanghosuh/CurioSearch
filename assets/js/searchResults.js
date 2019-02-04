@@ -345,12 +345,12 @@ level1Results = [
 	],
 	[
 		{
-			title: 'Programmer - Wikipedia',
+			title: 'What Does the Term Computer Programmer Refer to?',
 			url: 'https://en.wikipedia.org/wiki/Programmer',
 			description: 'A programmer, developer, dev, coder, or software engineer is a person who creates computer software.'
 		},
 		{
-			title: 'Computer Programmer Skills You Need to Succeed',
+			title: 'Through What Does Computer Programmers Write Code?',
 			url: 'https://www.thebalancecareers.com/computer-programmer-job-description-salary-and-skills-2061823',
 			description: 'Overall, it is the responsibility of the computer programmer to write code and manipulate it into a language that the computer can understand and follow.'
 		},	
@@ -503,17 +503,17 @@ level2Cond3Results = [
 			description: 'The first President (George Washington) took office in 1789. The President serves as chief executive and is in charge of the ...'
 		},	
 		{
-			title: 'List of Presidents of the United States - Simple English Wikipedia, the ...',
+			title: 'George Washington\'s First-term Inaugural Was Postponed By How Many Days?',
 			url: 'https://simple.wikipedia.org/wiki/List_of_Presidents_of_the_United_States',
 			description: 'This list includes all people who have been sworn as President of the United ...... "Donald Trump – Republican Party – 45thPresident – American Presidents". ...'
 		},		
 		{
-			title: 'Presidents',
+			title: 'Which President Served As a Lieutenant Colonel In the Spanish-American War?',
 			url: 'https://www.whitehouse.gov/about-the-white-house/presidents/',
 			description: "Which President served as a lieutenant colonel in the Spanish-American war? Who was the first Democrat elected after the Civil War? Who introduced Social ..."
 		},		
 		{
-			title: 'U.S. President - Biography',
+			title: 'When Did the First U.S. President Take His Oath of Office?',
 			url: 'https://www.biography.com/people/groups/political-leaders-us-presidents',
 			description: 'U.S. President. The first U.S. president, former military leader George Washington, took his oath of office on April 30, 1789, on the balcony of Federal Hall.'
 		}
@@ -535,7 +535,7 @@ level2Cond3Results = [
 			description: 'Justin Trudeau. Justin Pierre James Trudeau PC MP (/ˈtrʊdoʊ/; French: [ʒystɛ̃ tʁydo]; born December 25, 1971) is a Canadian politician serving as the 23rd prime minister of Canada since ...'
 		},		
 		{
-			title: 'List of prime ministers of Canada | Britannica.com',
+			title: 'What Is the Titular Head of Canada?',
 			url: 'https://www.britannica.com/topic/list-of-prime-ministers-of-Canada-1800352',
 			description: "List of prime ministers of Canada: Though the titular head of Canada is the reigning monarch of the United Kingdom (represented locally by a governor-general), ..."
 		},		
@@ -562,12 +562,12 @@ level2Cond3Results = [
 			description: 'Vladimir Vladimirovich Putin is a Russian politician and former intelligence officer serving as President of ...'
 		},		
 		{
-			title: 'List of Presidents of Russia - Wikipedia',
+			title: 'When Did the Russian Constitution Take Effect?',
 			url: 'https://en.wikipedia.org/wiki/List_of_Presidents_of_Russia',
 			description: "Boris Yeltsin came to power with a wave of high expectations. On 12 June 1991 he was elected president of the Russian Soviet Federative Socialist Republic with ..."
 		},		
 		{
-			title: 'President of Russia',
+			title: 'When Was Vladmir Putin Born?',
 			url: 'http://en.kremlin.ru/',
 			description: 'Gathering in honour of the 10th anniversary of the Russian Orthodox Church Local Council and the ... Presidential Executive OfficeLatest news and events ...'
 		}
@@ -579,44 +579,44 @@ level2Cond3Results = [
 level1Cond3Results = [
 	[
 		{
-			title: 'President of the United States - Wikipedia',
+			title: 'Which Branch of the Federal Government Does the President Direct?',
 			url: 'https://en.wikipedia.org/wiki/President_of_the_United_States',
 			description: 'The President of the United States (POTUS) is the head of state and head of government of the United States of America. The president directs the executive branch ...'
 		},
 		{
-			title: 'President - Wikipedia',
+			title: 'President Is a Title Given to Leaders of What States?',
 			url: 'https://en.wikipedia.org/wiki/President',
 			description: 'The president is a common title for the head of state in most republics. In politics, president is a title given to leaders of republican states.'
 		},	
 		{
-			title: 'List of Presidents of the United States - Wikipedia',
+			title: 'Since 1789, How Many Have Served As President?',
 			url: 'https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States',
 			description: 'The President of the United States is the head of state and head of government of the United States, indirectly elected to a four-year term by the people through ...'
 		},		
 		{
-			title: 'PRESIDENT | meaning in the Cambridge English Dictionary',
+			title: 'It is Given to the Person Who Has What Position?',
 			url: 'https://dictionary.cambridge.org/dictionary/english/president',
 			description: "President Kennedy. the president of France. [ as form of address ] Thank you, Mr/Madam President. Boris Yeltsin was Russia's first democratically elected president."
 		},		
 		{
-			title: 'Presidents | The White House',
+			title: 'Which President served as a lieutenant colonel in the Spanish-American war?',
 			url: 'https://www.whitehouse.gov/about-the-white-house/presidents/',
 			description: 'Which President served as a lieutenant colonel in the Spanish-American war? Who was the first Democrat elected after the Civil War? Who introduced Social ...'
 		}
 	],
 	[
 		{
-			title: 'Programmer - Wikipedia',
+			title: 'What Does the Term Computer Programmer Refer to?',
 			url: 'https://en.wikipedia.org/wiki/Programmer',
 			description: 'A programmer, developer, dev, coder, or software engineer is a person who creates computer software.'
 		},
 		{
-			title: 'Computer Programmer Skills You Need to Succeed',
+			title: 'Through What Does Computer Programmers Write Code?',
 			url: 'https://www.thebalancecareers.com/computer-programmer-job-description-salary-and-skills-2061823',
 			description: 'Overall, it is the responsibility of the computer programmer to write code and manipulate it into a language that the computer can understand and follow.'
 		},	
 		{
-			title: 'Computer Programmer | ComputerScience.org',
+			title: 'What Does a Computer Programmer Do?',
 			url: 'https://www.computerscience.org/careers/computer-programmer/',
 			description: 'Learn how to become a Computer Programmer. Research career opportunities, average salaries, key skills and sample job descriptions.'
 		},		
@@ -626,14 +626,14 @@ level1Cond3Results = [
 			description: "Most programmers have a broad computing and coding background across multiple programming languages and platforms, including Structured Query ..."
 		},		
 		{
-			title: 'Programmers Guide - How to Become a Better Programmer - Due',
+			title: 'But, How Exactly Do You Get Your Career Started?',
 			url: 'https://due.com/programmer/',
 			description: 'In this programmer guide you will find everything you need to know to be a better programmer. We teach you how to become a better programmer.'
 		}
 	],
 	[
 		{
-			title: 'Professor - Wikipedia',
+			title: 'Where Is It Derived From?',
 			url: 'https://en.wikipedia.org/wiki/Professor',
 			description: 'Professor (commonly abbreviated as Prof.) is an academic rank at universities and other post-secondary education and research institutions in most countries.'
 		},
