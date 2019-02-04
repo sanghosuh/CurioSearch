@@ -224,7 +224,9 @@ level3Results = [
 			url: 'http://time.com/donald-trump-after-hours/',
 			description: 'President Donald Trump spends his time after hours in the White House with a mix of cable television news, Twitter and more.'
 		}
-	]
+	],
+	// queries
+	['george washington', 'abraham lincoln', 'donald trump']
 ]
 
 level2Results = [
@@ -308,7 +310,9 @@ level2Results = [
 			url: 'http://en.kremlin.ru/',
 			description: 'Gathering in honour of the 10th anniversary of the Russian Orthodox Church Local Council and the ... Presidential Executive OfficeLatest news and events ...'
 		}
-	]
+	],
+	// queries
+	['us president', 'canada president', 'russia president']
 ]
 
 level1Results = [
@@ -393,5 +397,6 @@ level1Results = [
 			description: 'Professor definition is - one that professes, avows, or declares. How to use professor in a sentence.'
 		}
 	],
-
+	// queries
+	['president', 'programmer', 'professor']
 ]
